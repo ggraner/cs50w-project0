@@ -1,7 +1,6 @@
 h1 {
   color:blue;
   text-align: center;
-
 }
 
 table {
@@ -23,16 +22,37 @@ th {
 #table1 {
   font-family: Airal, sans-serif;
   font-size: 18px;
+}
+
+#header {
+
+}
+
+#nav {
+
+}
+
+#section {
+
+}
+
+#footer {
 
 }
 
 .vname {
   font-weight: bold;
-
 }
 
-@media only screen and (max-width: 600px) {
+@media (min-width: 500px) {
   body {
     background-color: lightblue;
+  }
+}
+
+
+@media (max-width: 499px) {
+  body {
+    background-color: lightgrey;
   }
 }
