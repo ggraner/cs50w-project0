@@ -46,13 +46,27 @@ th {
 
 @media (min-width: 500px) {
   body {
-    background-color: lightblue;
+    background-color: white;
   }
 }
-
 
 @media (max-width: 499px) {
   body {
     background-color: lightgrey;
   }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.container -> div {
+  background-color: lightblue;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+
 }
